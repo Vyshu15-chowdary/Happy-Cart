@@ -20,7 +20,10 @@ const Cart = ({cart})=>{
                     ))}
                 </ul>
             )}
+            <h3>Total: ₹{total} </h3>
         </div>
-    )
+    );
 
-}
+};
+
+export default Cart;
