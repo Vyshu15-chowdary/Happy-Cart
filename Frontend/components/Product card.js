@@ -17,5 +17,8 @@ const ProductCard = ({product,addToCart})=>{
             </button>
 
         </div>
-    )
-}
+    );
+};
+
+
+export default ProductCard;
